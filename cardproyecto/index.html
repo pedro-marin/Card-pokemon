@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConsumiendoApi</title>
+    <!--link de imagenes y fuentes-->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <!-- clase -usando flex -se podria usar grip -->
+    <main class="flex">
+    </main>
+        
+        <template id="template-card">
+            <article class="card">
+                <img src="./images/bg-pattern-card.svg" alt="imagen tarjeta" class="card-header">
+                <!--informacion de tajerta arriba-->
+                <div class="card-body">
+                    <img src="./images/image-victor.jpg" alt="imagen persona" class="card-body-img">
+                    <h1 class="card-body-title">Juan Perez
+                    <span>29</span>
+                    <!--solo podemos usar un h1 en nuestro sitio web, h2 en adelante mas de 2-->
+                    </h1>
+                    <p class="card-body-text">Lomquimay</p>
+                </div>
+                <!--informacion de tajerta abajo-->
+                <div class="card-footer">
+                    <div class="card-footer-social">
+                        <h3>20k</h3>
+                        <p>Ataque</p>
+                    </div>
+                    
+                    <div class="card-footer-social">
+                        <h3>90k</h3>
+                        <p>Especial</p>
+                    </div>
+                    
+                    <div class="card-footer-social">
+                        <h3>1.5k</h3>
+                        <p>Defensa</p>
+                    </div>
+    
+                </div>
+    
+            </article>
+        </template>
+    
+
+    <script src="js/app.js"> </script>
+</body>
+</html>
